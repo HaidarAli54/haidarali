@@ -1,41 +1,3 @@
-// class Toyota {
-//     constructor(lini) {
-//         this.lini = lini;
-//     }
-//     introduce(){
-//         console.log(`toyota will launch a new car for ${this.lini}`)
-//     }
-// }
-// class offroad extends Toyota{
-//     constructor(lini,name,color,seat){
-//         super(lini);
-//         this.name = name;
-//         this.color = color;
-//         this.seat = seat;
-//     }
-//     muddyRoads(){
-//         console.log(`${this.name} for muddy roads`)
-//     }
-// }
-// class family extends Toyota{
-//     constructor(lini,name,color,seat){
-//         super(lini);
-//         this.name = name;
-//         this.color = color;
-//         this.seat = seat;
-//     }
-//     cityRoads(){
-//         console.log(`${this.name} for city roads`)
-//     }
-// }
-// const hylux = new offroad ("commercial","hylux","Blue","4");
-// const avanza = new family ("passanger","avanza","black","6");
-
-// console.log(hylux);
-// console.log(avanza);
-
-// hylux.muddyRoads();
-// avanza.cityRoads();
 
 class toyota{
     constructor(type){
@@ -45,9 +7,9 @@ class toyota{
 class commercial extends toyota{
     constructor(type,name,engine,price){
         super(type);
-        this.name = name;
-        this.engine = engine;
-        this.price = price;
+        this.name = Avanza;
+        this.engine = automatic;
+        this.price = "500" ;
     }
     newCar1(){
         console.log(`${this.name} for comersial line`)
